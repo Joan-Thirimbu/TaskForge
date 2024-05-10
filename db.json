@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "title": "Backend Development: API Rate Limiting",
+      "status": "To do",
+      "description": "Implement rate limiting for API endpoints to prevent abuse and ensure fair usage of resources.",
+      "id": 1
+    },
+    {
+      "title": "Backend Development: User Authentication",
+      "status": "In progress",
+      "description": "Implement user authentication system using a backend framework like Django or Node.js with Express.",
+      "id": 2
+    },
+    {
+      "title": "Design: Company Logo Redesign",
+      "status": "Done",
+      "description": "Redesign the company logo to give it a modern and professional look.",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "title": "Frontend Development: Dashboard UI",
+      "description": "Design and develop the dashboard user interface for internal analytics using React or Angular.",
+      "status": "To do"
+    },
+    {
+      "id": 5,
+      "title": "Backend Development: API Integration",
+      "description": "Integrate external APIs for data fetching and processing into the backend system.",
+      "status": "In progress"
+    },
+    {
+      "id": 6,
+      "title": "Design: Marketing Collaterals",
+      "description": "Create marketing collaterals such as brochures, flyers, and banners for upcoming promotional events.",
+      "status": "Done"
+    },
+    {
+      "id": 7,
+      "title": "Frontend Development: Product Page",
+      "description": "Develop the product page with interactive features and smooth user experience.",
+      "status": "In progress"
+    },
+    {
+      "id": 8,
+      "title": "Backend Development: Database Schema Design",
+      "description": "Design the database schema for storing and managing user data efficiently.",
+      "status": "To do"
+    },
+    {
+      "title": "Testing: Cross-Browser Compatibility",
+      "status": "Done",
+      "description": "Perform testing to ensure the website is compatible with major web browsers such as Chrome, Firefox, Safari, and Edge.",
+      "id": 9
+    },
+    {
+      "title": "Documentation: API Documentation",
+      "status": "Done",
+      "description": "Write comprehensive documentation for the backend APIs to facilitate integration for external developers.",
+      "id": 10
+    }
+  ]
+}

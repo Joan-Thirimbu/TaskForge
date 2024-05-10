@@ -1,0 +1,90 @@
+/* topnav */
+.topnav{
+    background: #8478DD;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 5rem;
+}
+.topnav-start{
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+.topnav-start svg{
+    margin-right: 1em;
+}
+.topnav-start svg:last-child{
+    margin-right: 0;
+}
+.topnav-text{
+    list-style: none;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+.topnav-text span{
+    font-size: .85em;
+}
+.topnav-end{
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+.topnav-end svg{
+    margin-left: 1em;
+}
+.topnav-end svg:first-child{
+    margin-right: 0;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 5rem;
+    margin-top: .75rem;
+    margin-bottom: .5rem;
+}
+.navbar-logo{
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+.logo-text {
+    font-size: 1.7em;
+    margin-left: .5em;
+    cursor: none;
+}
+.navbar-links{
+    list-style: none;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+}
+.navbar-links li span{
+    margin-right: 24px;
+    margin-left: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar-links li:not(:last-child)::after {
+    content: "/";
+    color: #48484a;
+}
+
+/* buttons */
+.btn{
+    padding: 0.5rem 1.25rem;
+    border-radius: .5rem;
+    background: #eaeaea;
+    color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn svg{
+    margin-left: 10px;
+}

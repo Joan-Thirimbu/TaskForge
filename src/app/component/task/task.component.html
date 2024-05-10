@@ -1,0 +1,42 @@
+<app-navbar></app-navbar>
+
+<!-- task-content -->
+<div class="task">
+  <div>
+    <h2 style="margin-bottom: .5rem;">Tasks</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum neque vel nulla efficitur, nec malesuada elit congue. Duis ac metus ut arcu viverra ultricies. Nulla facilisi. Integer ullamcorper lacus non leo consectetur, a convallis lorem lobortis. Sed eu lacus eget nisi sollicitudin molestie. Vivamus consequat lacus id fermentum consequat.</p>
+  </div>
+  <div class="pagination">
+      <button class="btn-add" (click)="openAddModal()">Add Task</button>
+      <div class="pagination-btn">
+        <button class="segment" (click)="prevPage()" [disabled]="currentPage === 1">&laquo;</button>
+        <span>{{ currentPage }}</span>
+        <button class="segment" (click)="nextPage()"[disabled]="currentPage === totalPages">&raquo;</button>
+      </div>
+  </div>
+  <table class="custom-table">
+      <thead>
+        <tr>
+          <th class="table-header" style="width: 4rem; padding-left: .65rem;">ID</th>
+          <th class="table-header" style="width: 15rem;">Title</th>
+          <th class="table-header" style="width: 10rem; padding-left: 2.4rem;">Status</th>
+          <th class="table-header">Description</th>
+          <th style="width: 15rem;">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let task of tasks" class="table-row">
+          <td style="padding-left: .5rem;">{{ task.id }}</td>
+          <td>{{ task.title }}</td>
+          <td style="padding-left: 2rem;">
+            <span [ngStyle]="getStatusStyle(task.status)" class="status-text">{{ task.status }}</span>
+          </td>
+          <td>{{ task.description }}</td>
+          <td class="actionBtn">
+            <button class="btn-edit" (click)="openEditModal(task)">Edit</button>
+            <button class="btn-delete" (click)="deleteTask(task.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+  </table>
+</div>

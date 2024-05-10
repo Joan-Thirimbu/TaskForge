@@ -1,0 +1,73 @@
+.task{
+    min-height: 100vh;
+    display: flex;
+    padding: 0rem 5rem;
+    flex-direction: column;
+}
+.btn-add{
+    padding: 0.5rem 1.25rem;
+    border-radius: .5rem;
+    background: #8478DD;
+}
+.btn-add:hover{
+    background: #eaeaea;
+    color: #202020;
+}
+.pagination{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination-btn .segment {
+    background-color: #8478DD;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.pagination-btn .segment:disabled {
+    background-color: #ced4da00;
+    color: #eaeaea;
+    cursor: not-allowed;
+}
+.pagination-btn span {
+    margin: 10px;
+}
+.custom-table {
+    margin-top: 2rem;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+    width: 100%;
+}
+.table-header{
+    text-align: left;
+}
+th {
+    padding-bottom: 1rem;
+    border-bottom: solid #ccc;
+}
+.table-row td{
+    padding-bottom: 1rem;
+    border-bottom: .1px solid #ccc; 
+}
+.actionBtn{
+    text-align: center;
+}
+.btn-edit{
+    margin-right: 1rem;
+    padding: 0.5rem 1.25rem;
+    border-radius: .5rem;
+    background: #8478DD;
+}
+.btn-delete{
+    padding: 0.5rem 1.25rem;
+    border-radius: .5rem;
+    background: #c64040;
+}
+.status-text {
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+  

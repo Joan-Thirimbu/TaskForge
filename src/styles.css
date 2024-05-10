@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Import Font Awesome styles */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html, body { 
+    height: 100vh; 
+}
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-color: #202020;
+    color: #F2F0F4;
+}
+html, body { 
+    height: 100%; 
+}
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+.mat-dialog-container {
+    background-color: #262626 !important;
+    color: #eaeaea;
+    padding: 24px 24px 0 24px !important;
+}
+.mat-form-field-flex{
+    padding: .75em .75em 0 .75em;
+}
+.mat-form-field{
+    margin-right: 2rem;
+}
+.mat-form-field-appearance-legacy .mat-form-field-label {
+    color: #e2e2e28a;
+}
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+    background-color: #9a9a9a6b;
+}
+.mat-select-value {
+    color: #eaeaea;
+}
+.mat-select-arrow {
+    color: #e2e2e28a;
+}
+.mat-form-field-appearance-fill .mat-form-field-underline::before {
+    background-color: #9a9a9a6b;
+}
+.mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: #8478DD;
+}
+.mat-form-field.mat-focused .mat-form-field-label {
+    color: #8478DD;
+}
+.mat-form-field.mat-focused .mat-select-arrow{
+    color: #8478DD;
+}
+.mat-form-field-ripple {
+  background-color: #9a9a9a6b;
+}
+.mat-form-field-label {
+    color: #beb4b4;
+}
+.mat-dialog-content {
+    padding: 24px !important;
+}
+.mat-dialog-actions{
+    justify-content: end;
+}
+.mat-button, .mat-icon-button, .mat-stroked-button {
+    background: #444;
+}
+.mat-button:first-child, .mat-icon-button:first-child, .mat-stroked-button:first-child{
+    margin-right: .5rem;
+}
+.mat-dialog-content{
+    overflow: hidden !important;
+}
+.mat-dialog-actions{
+    display: none !important;
+}

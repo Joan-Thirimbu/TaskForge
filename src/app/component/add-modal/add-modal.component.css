@@ -1,0 +1,25 @@
+.dark-modal{
+    background: #303030;
+    color: #eaeaea;
+}
+.form-content {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.form-desc {
+    width: 100%;
+    margin-bottom: 24px;
+}  
+.form-div{
+    display: flex;
+    margin-bottom: 24px;
+}
+.save-btn{
+    background: #8478DD;
+}
+.actionBtn{
+    display: flex;
+    justify-content: end;
+}

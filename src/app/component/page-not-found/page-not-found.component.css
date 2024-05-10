@@ -1,0 +1,25 @@
+.page-not-found{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page-not-found span{
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.page-not-found p{
+    margin: 1rem 0;
+}
+.btn{
+    padding: 0.5rem 1.25rem;
+    border-radius: .5rem;
+    background: #eaeaea;
+    color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}

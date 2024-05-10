@@ -1,0 +1,32 @@
+.home-content{
+    min-height: calc(100vh - 228px);
+    display: flex;
+    padding: 0rem 15rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-content p{
+    font-size: 4.5rem;
+    line-height: 1;
+}
+.home-content span{
+    padding: 0rem 5rem;
+    margin-top: 2rem;
+}
+
+/* buttons */
+
+.btn{
+    margin: 3rem 0 2rem 0;
+    padding: 0.5rem 1.25rem;
+    border-radius: .5rem;
+    background: #8478DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn svg{
+    margin-left: 10px;
+}
