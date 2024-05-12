@@ -33,7 +33,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Json server
-
+Run ` npm install -g json-server@0.16.3`.
 Run `npx json-server --watch db.json`. This command will start JSON Server and watch the `db.json` file for changes, just like before. 
 
 ## Code scaffolding
