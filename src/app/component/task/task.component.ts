@@ -67,7 +67,7 @@ export class TaskComponent implements OnInit {
   }
 
   loadTotalItems(): void {
-    this.http.get<Task[]>('https://joan-thirimbu.github.io/Task-Manager').subscribe(
+    this.http.get<Task[]>('https://island-silken-join.glitch.me/tasks').subscribe(
       count => {
         this.totalItems = count.length;
         this.totalPages = Math.ceil(this.totalItems / this.itemsPerPage);
