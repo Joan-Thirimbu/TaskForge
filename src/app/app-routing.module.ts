@@ -13,6 +13,7 @@ const routes: Routes = [
   },
   { path: 'task', component: TaskComponent },
   { path: 'error', component: PageNotFoundComponent },
+  { path: '**', component: PageNotFoundComponent },
 ];
 
 @NgModule({
