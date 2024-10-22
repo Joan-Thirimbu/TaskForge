@@ -67,7 +67,7 @@ export class TaskComponent implements OnInit {
   }
 
   loadTotalItems(): void {
-    this.http.get<Task[]>('http://localhost:3000/tasks').subscribe(
+    this.http.get<Task[]>('https://joan-thirimbu.github.io/Task-Manager').subscribe(
       count => {
         this.totalItems = count.length;
         this.totalPages = Math.ceil(this.totalItems / this.itemsPerPage);

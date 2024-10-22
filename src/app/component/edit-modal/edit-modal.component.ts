@@ -5,6 +5,7 @@ import { HttpClient } from '@angular/common/http';
 import { NgForm } from '@angular/forms'; 
 import { Observable } from 'rxjs';
 import { Task } from '../../model/task.model'; 
+import { environment } from 'src/environments/environment.prod';
 
 interface Status {
   status: string;
@@ -64,7 +65,7 @@ export class EditModalComponent implements OnInit {
   }
   
   private updateTask(taskId: number, formData: any): Observable<any> {
-    const url = `http://localhost:3000/tasks/${taskId}`;
+    const url = `${environment.apiUrl}/${taskId}`;
     return this.http.put<Task>(url, formData); 
   }
   

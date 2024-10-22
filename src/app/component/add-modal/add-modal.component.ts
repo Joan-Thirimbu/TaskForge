@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { NgForm } from '@angular/forms'; 
 import { Location } from '@angular/common';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment.prod';
 
 interface Status {
   status: string;
@@ -57,7 +58,7 @@ export class AddModalComponent {
   }
 
   private saveTask(formData: any): Observable<any> {
-    return this.http.post('http://localhost:3000/tasks', formData);
+    return this.http.post(environment.apiUrl, formData);
   }
 
 }
