@@ -7,7 +7,7 @@ import { Task } from '../model/task.model';
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'https://joan-thirimbu.github.io/Task-Manager';
+  private apiUrl = 'https://island-silken-join.glitch.me/tasks'; // Glitch url for my backend
 
   constructor(private http: HttpClient) { }
 
