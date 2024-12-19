@@ -1,32 +1,47 @@
 .home-content{
-    min-height: calc(100vh - 228px);
-    display: flex;
-    padding: 0rem 15rem;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+    place-items: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 6rem;
 }
-.home-content p{
-    font-size: 4.5rem;
+.title{
+    font-size: 3rem;
     line-height: 1;
+    margin-bottom: 1rem;
 }
-.home-content span{
-    padding: 0rem 5rem;
-    margin-top: 2rem;
+.desc{
+    width: 60%;
+    margin: 2rem 0;
 }
-
-/* buttons */
-
 .btn{
-    margin: 3rem 0 2rem 0;
     padding: 0.5rem 1.25rem;
     border-radius: .5rem;
     background: #8478DD;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .btn svg{
     margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .home-content{
+        padding: .25rem 1.5rem;
+        margin-top: 3rem;
+        width: auto;
+    }
+    .title{
+        font-size: 2.5rem;
+    }
+    .desc{
+        width: 80%;
+    }
+    .topnav span{
+        font-size: .65em;
+        font-weight: 500;
+    }
 }
