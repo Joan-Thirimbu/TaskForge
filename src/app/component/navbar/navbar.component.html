@@ -49,7 +49,10 @@
         </div>
         <div class="logo-text">Tasky</div>
     </div>
-    <div class="nav-container">
+    <button class="btn mobile-nav-toggle" (click)="toggleNav()" [attr.aria-expanded]="isExpanded.toString()" type="button">
+        <span class="sr-only">Menu</span>
+    </button>
+    <div class="nav-container" [ngClass]="{'open': isExpanded}">
         <ul class="navbar-links">
             <li routerLink=""><span>Home</span></li>
             <li routerLink="/error"><span>About</span></li>

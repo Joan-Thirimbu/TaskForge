@@ -1,7 +1,11 @@
 .home-content{
     display: grid;
     place-items: center;
-    width: 70%;
+    align-content: center;
+    min-height: 100vh;
+    overflow: auto;
+    padding: 0 5em;
+    margin: 2em auto;
 }
 .title{
     font-size: 3rem;
@@ -9,10 +13,10 @@
     margin-bottom: 1rem;
 }
 .desc{
-    width: 60%;
+    width: 70%;
     margin: 2rem 0;
 }
-.btn{
+.tasks{
     padding: 0.5rem 1.25rem;
     border-radius: .5rem;
     background: #8478DD;
@@ -27,11 +31,6 @@
 }
 
 @media screen and (max-width: 600px) {
-    .home-content{
-        padding: 1em 3.85em 5em 3.85em;
-        width: auto;
-        margin: 10em auto;
-    }
     .title{
         font-size: 2.5rem;
     }
@@ -44,9 +43,10 @@
     }
 }
 @media screen and (max-width: 400px) {
-    .home-content[_ngcontent-ng-c3181782756] {
-        padding: 2em 3.85em 5em 3.85em;
-        width: auto;
-        margin: 10em auto;
+    .home-content{
+        margin: 6em auto;
+    }
+    .tasks{
+        margin-top: .5em;
     }
 }
