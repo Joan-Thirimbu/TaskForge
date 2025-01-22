@@ -11,7 +11,6 @@ html, body {
     font-family: Roboto, "Helvetica Neue", sans-serif; 
     background-color: #202020;
     color: #F2F0F4;
-    border: 2px solid red;
     height: 100%;
 }
 app-footer{

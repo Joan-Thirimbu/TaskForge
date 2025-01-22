@@ -89,6 +89,10 @@
     justify-content: center;
     padding-left: 0px;
 }
+.navbar-links li.active span {
+    color: #8478DD; 
+    font-weight: bold;
+}
 .navbar-links li span{
     margin-right: 24px;
     margin-left: 24px;
