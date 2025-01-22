@@ -1,0 +1,15 @@
+h2{
+    margin: 0;
+}
+p {
+    margin-top: 12px;
+}
+.about-content{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    overflow: auto;
+    padding: 7em 3em 3em 3em;
+    margin: 2em auto;
+}

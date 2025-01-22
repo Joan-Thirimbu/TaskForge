@@ -18,6 +18,7 @@ import { TaskComponent } from './component/task/task.component';
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 import { AddModalComponent } from './component/add-modal/add-modal.component';
 import { EditModalComponent } from './component/edit-modal/edit-modal.component';
+import { AboutPageComponent } from './component/about/about.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { EditModalComponent } from './component/edit-modal/edit-modal.component'
     PageNotFoundComponent,
     TaskComponent,
     AddModalComponent,
-    EditModalComponent
+    EditModalComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,7 @@ import { EditModalComponent } from './component/edit-modal/edit-modal.component'
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   bootstrap: [AppComponent]
 })
