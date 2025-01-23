@@ -4,13 +4,12 @@
     align-content: center;
     min-height: 100vh;
     overflow: auto;
-    padding: 0 5em;
-    margin: 2em auto;
 }
 .title{
     font-size: 3rem;
     line-height: 1;
     margin-bottom: 1rem;
+    width: 85%;
 }
 .desc{
     width: 70%;
@@ -30,23 +29,29 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .title{
-        font-size: 2.5rem;
+        width: 70%;
     }
     .desc{
-        width: 80%;
+        width: 60%;
     }
     .topnav span{
         font-size: .65em;
         font-weight: 500;
     }
 }
-@media screen and (max-width: 400px) {
-    .home-content{
-        margin: 6em auto;
+@media screen and (max-width: 480px) {
+    .title{
+        font-size: 2rem;
     }
     .tasks{
-        margin-top: .5em;
+        margin-top: .75em;
+    }
+    .desc{
+        font-size: 12px;
+    }
+    .tasks{
+        font-size: 12px;
     }
 }

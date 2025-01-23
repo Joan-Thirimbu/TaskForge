@@ -62,6 +62,7 @@
     font-size: 1.7em;
     margin-left: .5em;
     cursor: none;
+    font-weight: 500;
 }
 .sr-only {
     position: absolute;
@@ -121,7 +122,10 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 768px){
+    .logo-text{
+        font-size: 1.5em;
+    }
     .nav-container{
         position: fixed;
         inset: 0 0 0 60%;
@@ -173,7 +177,7 @@
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .topnav{
         padding: .25rem 1.5rem;
     }
