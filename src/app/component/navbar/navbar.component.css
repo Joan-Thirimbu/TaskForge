@@ -142,13 +142,13 @@
         position: absolute;
         z-index: 9999;
         background-color: transparent !important;
-        background-image: url('/assets/menu.svg') !important;
+        background-image: url('/TaskForge/src/assets/menu.svg') !important;
         right: 1.5em;
         aspect-ratio: 1;
         width: 2em;
     }
     .mobile-nav-toggle[aria-expanded='true']{
-        background-image: url('/assets/close.svg') !important;
+        background-image: url('/TaskForge/src/assets/close.svg') !important;
     }
     .navbar-links{
         flex-direction: column;
