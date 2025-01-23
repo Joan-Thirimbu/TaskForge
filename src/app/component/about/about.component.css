@@ -13,3 +13,6 @@ p {
     padding: 7em 3em 3em 3em;
     margin: 2em auto;
 }
+.dark\:bg-gray-800 {
+    background-color: rgb(47, 47, 47);
+}
