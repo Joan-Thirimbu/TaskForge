@@ -4,7 +4,7 @@ This application, built with **Angular**, allows users to efficiently organize a
 
 ## UI Design
 
-In addition to the core functionality, I also worked on the UI design to ensure a visually appealing and user-friendly experience. The app utilizes ***Angular Material*** & ***Tailwind CSS*** to create a clean and consistent interface, with well-designed forms, buttons, and tables that help users easily interact with the task management features. While the app is up and running, responsive design is currently under consideration to ensure it works well on different screen sizes in the future. The design work is complete, with a smooth and intuitive user interface implemented. Responsiveness has been addressed, and future enhancements will focus on improving accessibility.
+In addition to the core functionality, I also worked on the UI design to ensure a visually appealing and user-friendly experience. The app utilizes ***Angular Material*** & ***Tailwind CSS*** to create a clean and consistent interface, with well-designed forms, buttons, and tables that help users easily interact with the task management features. The app is currently live and fully functional, with a smooth and intuitive user interface in place. The design has been optimized for various screen sizes to ensure a seamless experience across devices. Future enhancements will focus on improving accessibility to further enhance usability for all users.
 
 ## Technologies Used
 
