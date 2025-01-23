@@ -80,7 +80,41 @@ app-footer{
 .mat-dialog-actions{
     display: none !important;
 }
-
+.mat-mdc-dialog-container .mat-mdc-dialog-title{
+    margin-bottom: 24px;
+    color: #eaeaea !important;
+    border-bottom: 1px solid #9a9a9a6b;
+}
+.mat-mdc-dialog-surface.mdc-dialog__surface{
+    background-color: #303030 !important;
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled){
+    background: none !important;
+}
+.mat-mdc-select-trigger, .mat-mdc-select-arrow, .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-floating-label, .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input{
+    color: #eaeaea !important;
+}
+.mat-mdc-form-field-focus-overlay{
+    background-color: #eaeaea !important;
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-line-ripple::before {
+    border-bottom-color:  #eaeaea !important;
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-line-ripple::after{
+    border-bottom-color:  #8478DD !important;
+}
+.mat-mdc-option .mat-pseudo-checkbox{
+    --mat-minimal-pseudo-checkbox-selected-checkmark-color: #8478DD !important;
+}
+.mat-mdc-option.mdc-list-item--selected:not(.mdc-list-item--disabled) .mdc-list-item__primary-text{
+    color: #8478DD !important;
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input::placeholder{
+    color: #eaeaea !important;
+}
+.mdc-text-field--outlined .mat-mdc-form-field-infix, .mdc-text-field--no-label .mat-mdc-form-field-infix{
+    padding: 0 !important;
+}
 @media screen and (max-width: 600px) {
     app-footer{
         padding: .5rem 1rem;

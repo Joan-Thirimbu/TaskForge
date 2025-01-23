@@ -1,11 +1,11 @@
-<h2 mat-dialog-title style="margin-bottom: 24px;">Edit task</h2>
+<h2 mat-dialog-title>Edit task</h2>
 <mat-dialog-content class="mat-typography dark-modal">
     <form #form="ngForm" class="form-content" (ngSubmit)="onSubmit(form)">
         <div class="form-div">
             <mat-form-field>
                 <input matInput placeholder="Task Name" name="title" [(ngModel)]="task.title" required>
             </mat-form-field>
-            <mat-form-field style="margin-right: 0;">
+            <mat-form-field style="margin-left: 1em;">
                 <mat-label>Status</mat-label>
                 <mat-select name="status" [(ngModel)]="task.status" required>
                     <mat-option *ngFor="let s of status" [value]="s.status">{{ s.status }}</mat-option>

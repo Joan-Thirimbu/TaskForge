@@ -17,8 +17,11 @@
 }
 .update-btn{
     background: #8478DD;
+    color: #fff !important;
+    font-size: 12px;
 }
 .actionBtn{
     display: flex;
     justify-content: end;
+    margin-top: 1.5em;
 }
