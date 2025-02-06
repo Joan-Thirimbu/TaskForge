@@ -5,6 +5,11 @@
 @tailwind components;
 @tailwind utilities;
 
+::before, ::after {
+    text-decoration: underline;
+    text-underline-offset: .3em;
+}
+
 html, body {
     margin: 0;
     padding: 0;

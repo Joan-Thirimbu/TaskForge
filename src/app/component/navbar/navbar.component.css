@@ -103,6 +103,7 @@
 .navbar-links li:not(:last-child)::after {
     content: "/";
     color: #48484a;
+    text-decoration: none;
 }
 .nav-btn{
     flex: 1;

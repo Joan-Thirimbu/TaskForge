@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -18,7 +18,8 @@ import { TaskComponent } from './component/task/task.component';
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 import { AddModalComponent } from './component/add-modal/add-modal.component';
 import { EditModalComponent } from './component/edit-modal/edit-modal.component';
-import { AboutPageComponent } from './component/about/about.component'
+import { AboutPageComponent } from './component/about/about.component';
+import { CardComponent } from './component/card/card.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AboutPageComponent } from './component/about/about.component'
     TaskComponent,
     AddModalComponent,
     EditModalComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +46,7 @@ import { AboutPageComponent } from './component/about/about.component'
     MatSelectModule,
     AppRoutingModule,
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
