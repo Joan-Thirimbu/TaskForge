@@ -31,7 +31,7 @@ In addition to the core functionality, I also worked on the UI design to ensure 
 
 ## License
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Apache License 2.0** – see the [LICENSE](LICENSE) file for details.
 
 ## Installation
 
